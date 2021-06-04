@@ -5,6 +5,7 @@ export default class DeviceStore {
         this._types = []
         this._brands = []
         this._devices = []
+        this._baskets = []
         this._selectedType = {}
         this._selectedBrand = {}
         this._page = 1
@@ -21,6 +22,11 @@ export default class DeviceStore {
     }
     setDevices(devices) {
         this._devices = devices
+    }
+
+
+    setBaskets(basket){
+        this._baskets = basket
     }
 
     setSelectedType(type) {
@@ -46,6 +52,11 @@ export default class DeviceStore {
     }
     get devices() {
         return this._devices
+    }
+
+
+    get basket() {
+        return this._baskets
     }
     get selectedType() {
         return this._selectedType

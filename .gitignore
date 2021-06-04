@@ -19,3 +19,7 @@
 /client/yarn-error.log*
 
 /server/node_modules
+/client/node_modules
+
+/online-store-full-course
+/antonova-app-online-store

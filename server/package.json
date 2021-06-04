@@ -16,8 +16,7 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.2.1",
     "jsonwebtoken": "^8.5.1",
-    "pg": "^8.5.1",
-    "pg-hstore": "^2.3.3",
+    "mysql2": "^2.2.5",
     "sequelize": "^6.4.0",
     "uuid": "^8.3.2"
   },
